@@ -19,6 +19,8 @@
 		37A1287316A71503000E1D41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A1287216A71503000E1D41 /* ViewController.m */; };
 		37A1287616A71503000E1D41 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A1287416A71503000E1D41 /* ViewController_iPhone.xib */; };
 		37A1287916A71503000E1D41 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A1287716A71503000E1D41 /* ViewController_iPad.xib */; };
+		37A1288116A715E9000E1D41 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A1288016A715E9000E1D41 /* Unit.m */; };
+		37A1288316A715FD000E1D41 /* Unit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A1288216A715FD000E1D41 /* Unit.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		37A1287216A71503000E1D41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		37A1287516A71503000E1D41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		37A1287816A71503000E1D41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		37A1287F16A715E9000E1D41 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		37A1288016A715E9000E1D41 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		37A1288216A715FD000E1D41 /* Unit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Unit.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,9 @@
 				37A1287216A71503000E1D41 /* ViewController.m */,
 				37A1287416A71503000E1D41 /* ViewController_iPhone.xib */,
 				37A1287716A71503000E1D41 /* ViewController_iPad.xib */,
+				37A1287F16A715E9000E1D41 /* Unit.h */,
+				37A1288016A715E9000E1D41 /* Unit.m */,
+				37A1288216A715FD000E1D41 /* Unit.xib */,
 				37A1286016A71503000E1D41 /* Supporting Files */,
 			);
 			path = TripleDemo;
@@ -167,6 +175,7 @@
 				37A1287016A71503000E1D41 /* Default-568h@2x.png in Resources */,
 				37A1287616A71503000E1D41 /* ViewController_iPhone.xib in Resources */,
 				37A1287916A71503000E1D41 /* ViewController_iPad.xib in Resources */,
+				37A1288316A715FD000E1D41 /* Unit.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +189,7 @@
 				37A1286616A71503000E1D41 /* main.m in Sources */,
 				37A1286A16A71503000E1D41 /* AppDelegate.m in Sources */,
 				37A1287316A71503000E1D41 /* ViewController.m in Sources */,
+				37A1288116A715E9000E1D41 /* Unit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

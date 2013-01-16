@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
+{
+    NSMutableArray *units;
+}
+
+@property (nonatomic,assign)IBOutlet UITextField *tf;
 
 @end
