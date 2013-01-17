@@ -21,6 +21,7 @@
 		37A1287916A71503000E1D41 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A1287716A71503000E1D41 /* ViewController_iPad.xib */; };
 		37A1288116A715E9000E1D41 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A1288016A715E9000E1D41 /* Unit.m */; };
 		37A1288316A715FD000E1D41 /* Unit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A1288216A715FD000E1D41 /* Unit.xib */; };
+		37A128CC16A8539E000E1D41 /* Unit~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A128CB16A8539E000E1D41 /* Unit~ipad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		37A1287F16A715E9000E1D41 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
 		37A1288016A715E9000E1D41 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
 		37A1288216A715FD000E1D41 /* Unit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Unit.xib; sourceTree = "<group>"; };
+		37A128CB16A8539E000E1D41 /* Unit~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Unit~ipad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				37A1287F16A715E9000E1D41 /* Unit.h */,
 				37A1288016A715E9000E1D41 /* Unit.m */,
 				37A1288216A715FD000E1D41 /* Unit.xib */,
+				37A128CB16A8539E000E1D41 /* Unit~ipad.xib */,
 				37A1286016A71503000E1D41 /* Supporting Files */,
 			);
 			path = TripleDemo;
@@ -176,6 +179,7 @@
 				37A1287616A71503000E1D41 /* ViewController_iPhone.xib in Resources */,
 				37A1287916A71503000E1D41 /* ViewController_iPad.xib in Resources */,
 				37A1288316A715FD000E1D41 /* Unit.xib in Resources */,
+				37A128CC16A8539E000E1D41 /* Unit~ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +282,15 @@
 		37A1287D16A71503000E1D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yunlong Li (97TE3ZATPJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yunlong Li (97TE3ZATPJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TripleDemo/TripleDemo-Prefix.pch";
 				INFOPLIST_FILE = "TripleDemo/TripleDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6D6F6A6D-408A-403F-812D-B33E6059E9A7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6D6F6A6D-408A-403F-812D-B33E6059E9A7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -292,6 +301,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TripleDemo/TripleDemo-Prefix.pch";
 				INFOPLIST_FILE = "TripleDemo/TripleDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -316,6 +326,7 @@
 				37A1287E16A71503000E1D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

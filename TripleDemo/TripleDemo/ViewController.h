@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController<UITextFieldDelegate>
 {
     NSMutableArray *units;
+    NSMutableDictionary *_seeds;
 }
 
 @property (nonatomic,assign)IBOutlet UITextField *tf;

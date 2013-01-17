@@ -50,5 +50,13 @@
     // Drawing code
 }
 */
-
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"tag:%d text:%@",self.tag,self.tf.text];
+    
+}
+- (NSString *)debugDescription
+{
+    return [NSString stringWithFormat:@"tag:%d text:%@",self.tag,self.tf.text];
+}
 @end
