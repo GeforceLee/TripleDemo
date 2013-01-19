@@ -15,5 +15,6 @@
 }
 
 @property (nonatomic,assign)IBOutlet UITextField *tf;
-
+@property (nonatomic,strong)UIButton *returnBut;
+@property (nonatomic,weak)UITextField *currentTf;
 @end
